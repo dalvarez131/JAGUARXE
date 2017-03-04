@@ -1,0 +1,48 @@
+html {
+  background-image: url(../jaguar.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div {
+  background-color: rgba(0,0,0,0.6);
+  width: 600px;
+  margin-left: 3%;
+  margin-top: 3%;
+  color: rgb(208,211,212);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  word-spacing: 0px ;
+
+}
+div button {
+  background-color: #DF013A;
+  color: rgb(236,240,241);
+  font-family: 'Roboto:700', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 7px 20px 7px 20px;
+  border-color: #DF013A;
+  border: none;
+}
+h1 {
+  color: rgb(236,240,241);
+}
+@media only screen and (max-width: 600px) {
+  div {
+    width: 90%;
+  }
+
+}
